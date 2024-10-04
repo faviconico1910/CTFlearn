@@ -21,7 +21,7 @@ _BOOL8 __fastcall cek(int a1)
 {
   return a1 == valid;
 }
-``
+```
 Then, click on valid, we'll see it's value
 ``` .data:0000000000601040 valid           dd 51615h ```
 
