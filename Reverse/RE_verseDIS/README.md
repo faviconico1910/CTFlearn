@@ -40,7 +40,7 @@ We'll see it reads a string, then run a loop 21 times. In each iteration, it Xor
 .data:0000000000201060                 db 0Dh, 3 dup(0), 1Bh, 3 dup(0), 3, 3 dup(0), 7Ch, 3 dup(0)
 .data:0000000000201070                 db 13h, 0Fh dup(0)
 ```
-Finnaly, it compares the input with the the value has been XORed. We can easily write a script to derive the input, which is our flag. Here is my script:
+Finally, it compares the input with the the value has been XORed. We can easily write a script to derive the input, which is our flag. Here is my script:
 ```
 key = 'IdontKnowWhatsGoingOn'
 str = [ 0x08, 0x00, 0x00, 0x00, 0x06, 0x00, 0x00, 0x00, 0x2C, 0x00, 
